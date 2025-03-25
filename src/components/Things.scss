@@ -1,0 +1,42 @@
+.things-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+ul li {
+  background-color: #fff;
+  border-radius: 12px;
+  margin: 15px;
+  padding: 25px;
+  width: 250px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+ul li:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+ul li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: #333;
+  font-weight: bold;
+  display: block;
+  transition: color 0.3s ease;
+  text-align: center;
+}
+
+ul li a:hover {
+  color: #ff5722;
+}
+
+ul li img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
